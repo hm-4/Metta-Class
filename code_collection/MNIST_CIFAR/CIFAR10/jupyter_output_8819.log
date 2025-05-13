@@ -1,0 +1,121 @@
+Python 3.8.18
+/home/harikrishnam/.conda/envs/dl-gpu/lib/python3.8/runpy.py:127: RuntimeWarning: 'torch.utils.collect_env' found in sys.modules after import of package 'torch.utils', but prior to execution of 'torch.utils.collect_env'; this may result in unpredictable behaviour
+  warn(RuntimeWarning(msg))
+Collecting environment information...
+PyTorch version: 2.4.1
+Is debug build: False
+CUDA used to build PyTorch: 12.4
+ROCM used to build PyTorch: N/A
+
+OS: Ubuntu 22.04.5 LTS (x86_64)
+GCC version: (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0
+Clang version: Could not collect
+CMake version: version 3.29.4
+Libc version: glibc-2.35
+
+Python version: 3.8.18 | packaged by conda-forge | (default, Oct 10 2023, 15:44:36)  [GCC 12.3.0] (64-bit runtime)
+Python platform: Linux-5.15.0-131-generic-x86_64-with-glibc2.10
+Is CUDA available: True
+CUDA runtime version: 12.4.131
+CUDA_MODULE_LOADING set to: LAZY
+GPU models and configuration: GPU 0: NVIDIA RTX 6000 Ada Generation
+Nvidia driver version: 550.144.03
+cuDNN version: Could not collect
+HIP runtime version: N/A
+MIOpen runtime version: N/A
+Is XNNPACK available: True
+
+CPU:
+Architecture:                         x86_64
+CPU op-mode(s):                       32-bit, 64-bit
+Address sizes:                        52 bits physical, 57 bits virtual
+Byte Order:                           Little Endian
+CPU(s):                               96
+On-line CPU(s) list:                  0-95
+Vendor ID:                            AuthenticAMD
+Model name:                           AMD EPYC 9654 96-Core Processor
+CPU family:                           25
+Model:                                17
+Thread(s) per core:                   1
+Core(s) per socket:                   96
+Socket(s):                            1
+Stepping:                             1
+Frequency boost:                      enabled
+CPU max MHz:                          3707.8120
+CPU min MHz:                          1500.0000
+BogoMIPS:                             4799.74
+Flags:                                fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 invpcid_single hw_pstate ssbd mba ibrs ibpb stibp ibrs_enhanced vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid cqm rdt_a avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local avx512_bf16 clzero irperf xsaveerptr rdpru wbnoinvd amd_ppin cppc arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif v_spec_ctrl avx512vbmi umip pku ospke avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg avx512_vpopcntdq la57 rdpid overflow_recov succor smca fsrm flush_l1d
+Virtualization:                       AMD-V
+L1d cache:                            3 MiB (96 instances)
+L1i cache:                            3 MiB (96 instances)
+L2 cache:                             96 MiB (96 instances)
+L3 cache:                             384 MiB (12 instances)
+NUMA node(s):                         1
+NUMA node0 CPU(s):                    0-95
+Vulnerability Gather data sampling:   Not affected
+Vulnerability Itlb multihit:          Not affected
+Vulnerability L1tf:                   Not affected
+Vulnerability Mds:                    Not affected
+Vulnerability Meltdown:               Not affected
+Vulnerability Mmio stale data:        Not affected
+Vulnerability Reg file data sampling: Not affected
+Vulnerability Retbleed:               Not affected
+Vulnerability Spec rstack overflow:   Mitigation; safe RET
+Vulnerability Spec store bypass:      Mitigation; Speculative Store Bypass disabled via prctl and seccomp
+Vulnerability Spectre v1:             Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:             Mitigation; Enhanced / Automatic IBRS; IBPB conditional; STIBP disabled; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected
+Vulnerability Srbds:                  Not affected
+Vulnerability Tsx async abort:        Not affected
+
+Versions of relevant libraries:
+[pip3] numpy==1.24.4
+[pip3] torch==2.4.1
+[pip3] torchvision==0.20.0
+[pip3] triton==3.0.0
+[conda] blas                      1.0                         mkl    conda-forge
+[conda] ffmpeg                    4.3                  hf484d3e_0    pytorch
+[conda] libblas                   3.9.0            16_linux64_mkl    conda-forge
+[conda] libcblas                  3.9.0            16_linux64_mkl    conda-forge
+[conda] libjpeg-turbo             2.0.0                h9bf148f_0    pytorch
+[conda] liblapack                 3.9.0            16_linux64_mkl    conda-forge
+[conda] mkl                       2022.2.1         h84fe81f_16997    conda-forge
+[conda] numpy                     1.24.4           py38h59b608b_0    conda-forge
+[conda] pytorch                   2.4.1           py3.8_cuda12.4_cudnn9.1.0_0    pytorch
+[conda] pytorch-cuda              12.4                 hc786d27_7    pytorch
+[conda] pytorch-mutex             1.0                        cuda    pytorch
+[conda] torchtriton               3.0.0                      py38    pytorch
+[conda] torchvision               0.20.0               py38_cu124    pytorch
+nvcc: NVIDIA (R) Cuda compiler driver
+Copyright (c) 2005-2024 NVIDIA Corporation
+Built on Thu_Mar_28_02:18:24_PDT_2024
+Cuda compilation tools, release 12.4, V12.4.131
+Build cuda_12.4.r12.4/compiler.34097967_0
+Files already downloaded and verified
+Files already downloaded and verified
+
+
+Data format: 
+--------------------------------
+type(train_datas[i].data[0]) -> <class 'torch.Tensor'>
+train_datas[i].data[0].dtype -> torch.float32
+
+type(train_datas[i].targets) -> <class 'torch.Tensor'>
+train_datas[i].targets.dtype -> torch.int64
+
+
+Access Data by indexing
+--------------------------------
+train_datas[i][0] -> (torch.Size([3, 32, 32]), torch.Size([]))
+
+
+max and min values of train_datas[i].data:
+--------------------------------
+	[(tensor(0.), tensor(1.))]
+
+
+================================
+
+here you are at 1
+here you are at 2
+Class-0 training ...
+slurmstepd: error: *** JOB 8819 ON cn1 CANCELLED AT 2025-01-28T19:24:09 ***

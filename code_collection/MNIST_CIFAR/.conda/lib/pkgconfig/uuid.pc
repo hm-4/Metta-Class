@@ -1,0 +1,11 @@
+prefix=/home/harikrishnam/dv/the_project/zero0.3/.conda
+exec_prefix=/home/harikrishnam/dv/the_project/zero0.3/.conda
+libdir=/home/harikrishnam/dv/the_project/zero0.3/.conda/lib
+includedir=/home/harikrishnam/dv/the_project/zero0.3/.conda/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.38.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid
